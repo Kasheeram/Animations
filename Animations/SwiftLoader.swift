@@ -89,6 +89,7 @@ class SwiftLoader:NSObject {
                 UIView.animate(withDuration: 0.5, delay: 0, usingSpringWithDamping:1, initialSpringVelocity:1,options: .curveEaseOut,
                                animations: {
                     view.frame = CGRect(x: keyWindow.frame.width , y: keyWindow.frame.height, width:0, height: 0)
+//                    view.removeFromSuperview()
 
                 }) { (completedAnimation) in
                     
