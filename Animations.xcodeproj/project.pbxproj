@@ -15,6 +15,7 @@
 		89E461BA21C7B64C004A312D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89E461B821C7B64C004A312D /* LaunchScreen.storyboard */; };
 		89E461C521C7B64C004A312D /* AnimationsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89E461C421C7B64C004A312D /* AnimationsTests.swift */; };
 		89E461D021C7B64C004A312D /* AnimationsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89E461CF21C7B64C004A312D /* AnimationsUITests.swift */; };
+		89E461DE21C7B906004A312D /* SwiftLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89E461DD21C7B906004A312D /* SwiftLoader.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		89E461CB21C7B64C004A312D /* AnimationsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnimationsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		89E461CF21C7B64C004A312D /* AnimationsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationsUITests.swift; sourceTree = "<group>"; };
 		89E461D121C7B64C004A312D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		89E461DD21C7B906004A312D /* SwiftLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftLoader.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				89E461B821C7B64C004A312D /* LaunchScreen.storyboard */,
 				89E461BB21C7B64C004A312D /* Info.plist */,
 				89E461B321C7B634004A312D /* Animations.xcdatamodeld */,
+				89E461DD21C7B906004A312D /* SwiftLoader.swift */,
 			);
 			path = Animations;
 			sourceTree = "<group>";
@@ -259,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				89E461DE21C7B906004A312D /* SwiftLoader.swift in Sources */,
 				89E461AF21C7B634004A312D /* ViewController.swift in Sources */,
 				89E461B521C7B634004A312D /* Animations.xcdatamodeld in Sources */,
 				89E461AD21C7B634004A312D /* AppDelegate.swift in Sources */,
